@@ -1,0 +1,44 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    background-image: url(../image/Music_Notes_HTV_1400x.png);
+}
+#container{
+    max-width:1100px;
+    margin:80px auto;
+}
+header {
+    padding-top:40px;
+    padding-bottom:40px;
+    background-color:rgb(187, 224, 63);
+    text-align: center;
+    font-style: italic;
+}
+main {
+    height:600px;
+}
+aside {
+    float:left;
+    background-image: url(../image/collectionmusicinstr.png);
+    width:30%;
+    height:600px;
+}
+section {
+    float:left;
+    background-color:gray;
+    width:70%;
+    height:1000px;
+}
+footer {
+    padding-top:40px;
+    padding-bottom:40px;
+    background-color: rgb(187, 224, 63);
+    text-align: center;
+    font-style: italic;
+}
+.box{
+    margin:20px;
+}

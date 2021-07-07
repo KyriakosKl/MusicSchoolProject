@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/stylesteachers.css">
+    <title>Students Registration</title>
+</head>
+<body>
+
+    <div id="container">
+        <header>
+           <p><h1> Registration for Teachers: </h1></p>
+        </header>
+        <main>
+            <aside>
+
+            </aside>
+            <section>
+                <form action="" method="">
+                    <input type="text" class="input" id="name" placeholder="Enter your first name"/> 
+                    <input type="text" class="input" id="lastname" placeholder="Enter your last name"/>
+                    <input required type="email" id="email" class="input" placeholder="Enter your verified email"/>
+                    <input  type="tel" min="0" max="11" id="num" class="input" placeholder="Enter your Phone number with zero"/>
+                    <input  type="password" min="8" max="20" id="password" class="input" placeholder="Password minimum 8 characters"/>
+                    <input  type="password" min="8" max="20" id="passwordConfirm" class="input" placeholder="Confirm password"/><br><br>
+                    <p>Choose the instrument you are interested to teach:</p>
+                    <div id="instrument">               
+                    <input type="radio" id="piano" name="instrument" value="piano"/>
+                    <label for="piano">Piano </label>
+                    <input  type="radio" id="guitar" name="instrument" value="guitar"/>
+                    <label for="guitar">Guitar </label>
+                    <input  type="radio" id="violin" name="instrument" value="violin"/>
+                    <label for="vocals">Violin </label>
+                    <input  type="radio" id="drums" name="instrument" value="drums"/>
+                    <label for="vocals">Drums </label>
+                    <input  type="radio" id="vocals" name="instrument" value="vocals"/>
+                    <label for="violin">Vocals </label><br>
+                    </div>
+                    <p>Choose your schedule:</p>
+                    <div id="instrument">               
+                    <input type="radio" id="fulltime" name="instrument" value="fulltime"/>
+                    <label for="piano">Full-time schedule </label>
+                    <input  type="radio" id="parttime" name="instrument" value="parttime"/>
+                    <label for="guitar">Part-time schedule </label><br>
+                    </div>
+                    <p>Choose your lesson type:</p>
+                    <div id="instrument">               
+                    <input type="radio" id="physicalpre" name="instrument" value="physicalpre"/>
+                    <label for="physicalpre">Physical presence </label>
+                    <input  type="radio" id="online" name="instrument" value="online"/>
+                    <label for="online">Part-time schedule </label><br>
+                    </div>
+
+                    <input  type="checkbox" id="checkbox" class="check" />
+                    <label for="checkbox"> I agree with the terms:</label><br>
+                    <input type="submit" id="submit" value="Submit" /><br>
+                </form>            
+            </section>
+
+        </main>
+        <footer>
+            <p><h2> Welcome to our School Teacher </h2></p>
+
+        </footer>
+    
+    
+</body>
+</html>
